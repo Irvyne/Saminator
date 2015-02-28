@@ -1,0 +1,36 @@
+{
+    "name": "irvyne/saminator",
+    "type": "library",
+    "description": "Framework to create dynamic project's documentation using Sami (API Documentation Generator)",
+    "keywords": ["framework"],
+    "homepage": "https://irvyne.github.io/saminator",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thibaud BARDIN",
+            "email": "thibaud.bardin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "sami/sami": "~3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Irvyne\\Saminator\\": "src/",
+            "Tests\\Irvyne\\Saminator\\": "tests/"
+        }
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
