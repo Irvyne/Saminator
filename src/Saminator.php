@@ -45,13 +45,7 @@ final class Saminator
             /** @var Project $project */
             $project = $sami['project'];
 
-            $project->update(function ($e) {
-                var_dump($e);
-            });
+            $project->update();
         }
-    }
-
-    protected function callback()
-    {
     }
 }

@@ -1,0 +1,39 @@
+filter:
+    excluded_paths:
+        - 'tests/*'
+
+checks:
+    php:
+        use_self_instead_of_fqcn: true
+        uppercase_constants: true
+        simplify_boolean_return: true
+        return_doc_comments: true
+        return_doc_comment_if_not_inferrable: true
+        properties_in_camelcaps: true
+        parameters_in_camelcaps: true
+        parameter_doc_comments: true
+        param_doc_comment_if_not_inferrable: true
+        optional_parameters_at_the_end: true
+        newline_at_end_of_file: true
+        more_specific_types_in_doc_comments: true
+        avoid_fixme_comments: true
+        avoid_perl_style_comments: true
+        avoid_todo_comments: true
+        classes_in_camel_caps: true
+        encourage_postdec_operator: true
+        encourage_single_quotes: true
+        function_in_camel_caps: true
+
+coding_style:
+    php:
+        indentation:
+            general:
+                size: 1
+        spaces:
+            around_operators:
+                concatenation: false
+
+tools:
+    external_code_coverage:
+        timeout: 600
+        runs: 1
