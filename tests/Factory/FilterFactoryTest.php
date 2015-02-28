@@ -12,7 +12,7 @@ use Irvyne\Saminator\Factory\FilterFactory;
 class FilterFactoryTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers FilterFactory::create
+     * @covers \Irvyne\Saminator\Factory\FilterFactory::create
      */
     public function testCreate()
     {
@@ -26,7 +26,7 @@ class FilterFactoryTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers FilterFactory::create
+     * @covers \Irvyne\Saminator\Factory\FilterFactory::create
      *
      * @expectedException \Irvyne\Saminator\Exception\FilterException
      */

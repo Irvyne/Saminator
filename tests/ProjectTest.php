@@ -12,7 +12,7 @@ use Irvyne\Saminator\Project;
 class ProjectTest extends \PHPUnit_Framework_TestCase
 {
     /**
-     * @covers Project::getName
+     * @covers \Irvyne\Saminator\Project::getName
      */
     public function testName()
     {

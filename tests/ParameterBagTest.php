@@ -9,7 +9,7 @@ use Irvyne\Saminator\ParameterBag;
  *
  * @package Tests\Irvyne\Saminator
  */
-class ParamaterBagTest extends \PHPUnit_Framework_TestCase
+class ParameterBagTest extends \PHPUnit_Framework_TestCase
 {
     private static $parameters = [
         'foo'   => 'bar',
@@ -17,7 +17,7 @@ class ParamaterBagTest extends \PHPUnit_Framework_TestCase
     ];
 
     /**
-     * @covers ParameterBag::clear
+     * @covers \Irvyne\Saminator\ParameterBag::clear
      */
     public function testClear()
     {
@@ -28,7 +28,7 @@ class ParamaterBagTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ParameterBag::all
+     * @covers \Irvyne\Saminator\ParameterBag::all
      */
     public function testAll()
     {
@@ -38,7 +38,7 @@ class ParamaterBagTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ParameterBag::keys
+     * @covers \Irvyne\Saminator\ParameterBag::keys
      */
     public function testKeys()
     {
@@ -48,7 +48,7 @@ class ParamaterBagTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ParameterBag::add
+     * @covers \Irvyne\Saminator\ParameterBag::add
      */
     public function testAdd()
     {
@@ -59,7 +59,7 @@ class ParamaterBagTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ParameterBag::remove
+     * @covers \Irvyne\Saminator\ParameterBag::remove
      */
     public function testRemove()
     {
@@ -73,8 +73,8 @@ class ParamaterBagTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ParameterBag::get
-     * @covers ParameterBag::set
+     * @covers \Irvyne\Saminator\ParameterBag::get
+     * @covers \Irvyne\Saminator\ParameterBag::set
      */
     public function testGetSet()
     {
@@ -98,7 +98,7 @@ class ParamaterBagTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ParameterBag::has
+     * @covers \Irvyne\Saminator\ParameterBag::has
      */
     public function testHas()
     {
@@ -110,7 +110,7 @@ class ParamaterBagTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ParameterBag::getIterator
+     * @covers \Irvyne\Saminator\ParameterBag::getIterator
      */
     public function testGetIterator()
     {
@@ -126,7 +126,7 @@ class ParamaterBagTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
-     * @covers ParameterBag::count
+     * @covers \Irvyne\Saminator\ParameterBag::count
      */
     public function testCount()
     {
