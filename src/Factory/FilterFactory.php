@@ -31,13 +31,10 @@ class FilterFactory
         switch ($filter) {
             case self::FILTER_DEFAULT:
                 return new DefaultFilter();
-                break;
             case self::FILTER_SYMFONY:
                 return new SymfonyFilter();
-                break;
             case self::FILTER_TRUE:
                 return new TrueFilter();
-                break;
             default:
                 throw new FilterException;
         }

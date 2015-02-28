@@ -39,7 +39,7 @@ interface ProjectInterface
     /**
      * @return string
      */
-    public function getVCS();
+    public function getVcs();
 
     /**
      * @return string

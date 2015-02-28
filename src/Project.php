@@ -65,10 +65,8 @@ class Project implements ProjectInterface
     }
 
     /**
-     * @param string $name
-     * @param null   $title
-     *
-     * @return Project
+     * @param string      $name
+     * @param null|string $title
      */
     public function __construct($name, $title = null)
     {
@@ -76,8 +74,6 @@ class Project implements ProjectInterface
         $this->title = null === $title ? $name : $title;
         $this->theme = 'default';
         $this->vcs   = self::VCS_GIT;
-
-        return $this;
     }
 
     /**

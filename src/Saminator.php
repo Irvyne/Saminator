@@ -5,7 +5,6 @@ namespace Irvyne\Saminator;
 use Irvyne\Saminator\Exception\BadInstanceException;
 use Irvyne\Saminator\Model\ParameterBagInterface;
 use Sami\Sami;
-use Sami\Project;
 
 /**
  * Class Saminator
@@ -20,7 +19,7 @@ final class Saminator
     protected $samiBag;
 
     /**
-     * @param ParameterBagInterface $samiBag
+     * @param null|ParameterBagInterface $samiBag
      */
     public function __construct(ParameterBagInterface $samiBag = null)
     {
@@ -28,7 +27,7 @@ final class Saminator
     }
 
     /**
-     * @param ParameterBagInterface $samiBag
+     * @param null|ParameterBagInterface $samiBag
      *
      * @throws BadInstanceException
      */
@@ -42,7 +41,7 @@ final class Saminator
                 throw new BadInstanceException($sami, 'Sami\\Sami', null);
             }
 
-            /** @var Project $project */
+            /** @var \Sami\Project $project */
             $project = $sami['project'];
 
             $project->update();

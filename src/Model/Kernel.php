@@ -40,7 +40,6 @@ abstract class Kernel implements KernelInterface
         $this->name    = null;
         $this->rootDir = null;
         $this->debug   = (bool) $debug;
-        var_dump(getcwd());
     }
 
     /**

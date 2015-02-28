@@ -12,7 +12,7 @@ use Irvyne\Saminator\ParameterBag;
 class ParameterBagFactory
 {
     /**
-     * @param array $array
+     * @param null|array $array
      *
      * @return ParameterBag
      */
