@@ -16,17 +16,17 @@ use Sami\Parser\Filter\TrueFilter;
 class FilterFactory
 {
     const FILTER_DEFAULT = 0;
-    const FILTER_SYMFONY  = 1;
+    const FILTER_SYMFONY = 1;
     const FILTER_TRUE    = 2;
 
     /**
-     * @param $filter
+     * @param int $filter
      *
      * @return FilterInterface
      *
      * @throws FilterException
      */
-    public static function create($filter)
+    public static function create($filter = self::FILTER_DEFAULT)
     {
         switch ($filter) {
             case self::FILTER_DEFAULT:

@@ -21,9 +21,9 @@ class SamiFactory
      *
      * @return Sami
      */
-    public static function createSami(KernelInterface $kernel, ProjectInterface $project, FilterInterface $filter = null)
+    public static function create(KernelInterface $kernel, ProjectInterface $project, FilterInterface $filter = null)
     {
-        $sami = new Sami(FinderFactory::create($project), [
+        $sami = new Sami(FinderFactory::create($kernel, $project), [
             'theme'                => $project->getTheme(),
             'versions'             => GitVersionCollectionFactory::create($project),
             'title'                => $project->getTitle(),
