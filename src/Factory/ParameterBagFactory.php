@@ -5,7 +5,7 @@ namespace Irvyne\Saminator\Factory;
 use Irvyne\Saminator\ParameterBag;
 
 /**
- * Class TagBagFactory
+ * Class ParameterBagFactory.
  *
  * @package Irvyne\Saminator\Factory
  */

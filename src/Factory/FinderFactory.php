@@ -6,7 +6,7 @@ use Irvyne\Saminator\Model\ProjectInterface;
 use Symfony\Component\Finder\Finder;
 
 /**
- * Class FinderFactory
+ * Class FinderFactory.
  *
  * @package Irvyne\Saminator\Factory
  */

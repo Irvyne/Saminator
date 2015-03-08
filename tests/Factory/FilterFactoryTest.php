@@ -5,7 +5,7 @@ namespace Tests\Irvyne\Saminator;
 use Irvyne\Saminator\Factory\FilterFactory;
 
 /**
- * Class FilterFactoryTest
+ * Class FilterFactoryTest.
  *
  * @package Tests\Irvyne\Saminator
  */

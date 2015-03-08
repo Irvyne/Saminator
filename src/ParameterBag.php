@@ -5,7 +5,7 @@ namespace Irvyne\Saminator;
 use Irvyne\Saminator\Model\ParameterBagInterface;
 
 /**
- * Class ParameterBag
+ * Class ParameterBag.
  *
  * @package Irvyne\Saminator
  */

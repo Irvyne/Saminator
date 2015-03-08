@@ -3,7 +3,7 @@
 namespace Irvyne\Saminator\Model;
 
 /**
- * Interface ParameterBagInterface
+ * Interface ParameterBagInterface.
  *
  * @package Irvyne\Saminator\Model
  */

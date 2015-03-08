@@ -9,7 +9,7 @@ use Sami\Parser\Filter\SymfonyFilter;
 use Sami\Parser\Filter\TrueFilter;
 
 /**
- * Class FilterFactory
+ * Class FilterFactory.
  *
  * @package Irvyne\Saminator\Factory
  */
@@ -36,7 +36,7 @@ class FilterFactory
             case self::FILTER_TRUE:
                 return new TrueFilter();
             default:
-                throw new FilterException;
+                throw new FilterException();
         }
     }
 }

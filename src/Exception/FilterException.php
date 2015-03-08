@@ -3,7 +3,7 @@
 namespace Irvyne\Saminator\Exception;
 
 /**
- * Class FilterException
+ * Class FilterException.
  *
  * @package Irvyne\Saminator\Exception
  */

@@ -5,6 +5,11 @@ namespace Irvyne\Saminator\Factory;
 use Irvyne\Saminator\Model\ProjectInterface;
 use Sami\Version\GitVersionCollection;
 
+/**
+ * Class GitVersionCollectionFactory.
+ *
+ * @package Irvyne\Saminator\Factory
+ */
 class GitVersionCollectionFactory
 {
     public static function create(ProjectInterface $project)

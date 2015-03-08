@@ -5,7 +5,7 @@ namespace Tests\Irvyne\Saminator;
 use Irvyne\Saminator\ParameterBag;
 
 /**
- * Class ParameterBagTest
+ * Class ParameterBagTest.
  *
  * @package Tests\Irvyne\Saminator
  */

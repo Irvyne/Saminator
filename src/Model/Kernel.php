@@ -3,7 +3,7 @@
 namespace Irvyne\Saminator\Model;
 
 /**
- * Class Kernel
+ * Class Kernel.
  *
  * @package Irvyne\Saminator\Model
  */
@@ -29,7 +29,7 @@ abstract class Kernel implements KernelInterface
     const DEFAULT_LOG_DIR   = 'var/logs';
 
     /**
-     * Constructor
+     * Constructor.
      *
      * @param null|string $name
      * @param null|string $rootDir

@@ -7,7 +7,7 @@ use Irvyne\Saminator\Model\ParameterBagInterface;
 use Sami\Sami;
 
 /**
- * Class Saminator
+ * Class Saminator.
  *
  * @package Irvyne\Saminator
  */

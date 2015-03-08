@@ -5,7 +5,7 @@ namespace Tests\Irvyne\Saminator;
 use Irvyne\Saminator\Project;
 
 /**
- * Class ProjectTest
+ * Class ProjectTest.
  *
  * @package Tests\Irvyne\Saminator
  */

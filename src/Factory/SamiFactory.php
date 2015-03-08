@@ -8,7 +8,7 @@ use Sami\Parser\Filter\FilterInterface;
 use Sami\Sami;
 
 /**
- * Class SamiFactory
+ * Class SamiFactory.
  *
  * @package Irvyne\Saminator\Factory
  */
@@ -27,8 +27,8 @@ class SamiFactory
             'theme'                => $project->getTheme(),
             'versions'             => GitVersionCollectionFactory::create($project),
             'title'                => $project->getTitle(),
-            'build_dir'            => $kernel->getBuildDir() . '/' . $project->getName() . '/%version%',
-            'cache_dir'            => $kernel->getCacheDir() . '/' . $project->getName() . '/%version%',
+            'build_dir'            => $kernel->getBuildDir().'/'.$project->getName().'/%version%',
+            'cache_dir'            => $kernel->getCacheDir().'/'.$project->getName().'/%version%',
             'default_opened_level' => 2,
         ]);
 

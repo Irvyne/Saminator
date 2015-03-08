@@ -3,7 +3,7 @@
 namespace Irvyne\Saminator\Model;
 
 /**
- * Interface ProjectInterface
+ * Interface ProjectInterface.
  *
  * @package Irvyne\Saminator\Model
  */

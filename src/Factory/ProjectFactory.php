@@ -6,7 +6,7 @@ use Irvyne\Saminator\Model\ParameterBagInterface;
 use Irvyne\Saminator\Project;
 
 /**
- * Class ProjectFactory
+ * Class ProjectFactory.
  *
  * @package Irvyne\Saminator\Factory
  */

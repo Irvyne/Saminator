@@ -3,7 +3,7 @@
 namespace Irvyne\Saminator\Exception;
 
 /**
- * Class BadInstanceException
+ * Class BadInstanceException.
  *
  * @package Irvyne\Saminator\Exception
  */

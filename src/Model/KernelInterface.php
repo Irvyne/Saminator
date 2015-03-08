@@ -3,7 +3,7 @@
 namespace Irvyne\Saminator\Model;
 
 /**
- * Interface Kernel
+ * Interface KernelInterface.
  *
  * @package Irvyne\Saminator\Model
  */
